@@ -1,7 +1,11 @@
 import styled from '@emotion/styled'
 
-export const Header = styled.button`
-    width: 100%;
-  background-color: red;
-  font-size: 50px;
+export const GogleHeader = styled.header`
+    width: 100vw;
+    height: 10vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 `;
