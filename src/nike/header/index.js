@@ -2,7 +2,7 @@ import React from "react";
 import { Header } from "./styles";
 import "./index.css";
 export default function Nike_Headers() {
-  return (
+  return ( 
     <div className="App">
       <Header>
         <div className="upheader">
