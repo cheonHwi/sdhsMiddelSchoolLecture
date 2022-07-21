@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+Header div {
+    margin: 0 auto;
+    max-width: 1058px;
+    padding: 0 22px;
+    position: relative;
+    z-index: 2;
+}
+li{
+    display: block;
+}
+ul li a{
+    color: rgb(170, 170, 170);
+    font-size: 18px;
+    transition: .3s;
+}
+ul {
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 35px;
+}
+ul li a:hover{
+    color: rgb(221, 221, 221);
+}
