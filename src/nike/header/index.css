@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+header{
+    color: black;
+}
+.joco {
+    display: flex;
+    justify-content: space-around;
+}
+
+.joco>li {
+    padding: 0 12px 0 12px;
+}
+
+.abrand>img {
+    width: 24px;
+    height: 22px;
+}
+
+.contents>a {
+    font-size: 12px;
+    padding: 0 3px 0 3px;
+}
+
+.upheader {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 36px;
+    align-items: center;
+    justify-content: space-between;
+    height: 4vh;
+}
+.downheader {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.upheader .joco1{
+    position: relative;
+    left: 37px;
+    top: 2px;
+}
+.upheader .contents{
+    position: relative;
+    right: 37px;
+    top: 2px;
+}
+.brand {
+    width: 24px;
+}
+
+.Logo {
+    width: 60px;
+    height: 23px;
+}
+.downheader .logo{
+    position: relative;
+    left: 37px;
+    top: 2px;
+}
+.downheader .menu1{
+    position: relative;
+    right: 37px;
+    top: 2px;
+}
+.downheader .gather{
+    position: relative;
+    right: 37px;
+    top: 2px;
+}
+.menu {
+    display: flex;
+    margin-left: 55px;
+}
+.menu li{
+    padding: 12px;
+}
+.search>a:hover {
+    background-color: #ccc;
+}
+
+.gather input:hover {
+    background-color: #ccc;
+}
+
+.gather input {
+    position: absolute;
+    right: 145px;
+    top: 5%;
+    border-radius: 67px;
+    border: none;
+    width: 180px;
+    height: 40px;
+    font-weight: 300;
+    font-size: 16px;
+    background-color: rgb(244, 244, 244);
+}
+
+.gather>.search>a {
+    border-radius: 50%;
+}
+
+.gather>.search>a:hover {
+    background-color: #ccc;
+}
+
+.gather .search_icon {
+    position: absolute;
+    right: 280px;
+    z-index: 99;
+    padding: 0;
+    width: 43px;
+    height: 43px;
+}
+
+.gather {
+    width: 100px;
+    height: 6vh;
+}
+
+.gather img {
+    width: 27px;
+    padding: 8px 8px;
+}
+
+.gather>.icon_sell>a>img {
+    width: 23px;
+}
+
+.gather > .icon_sell {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.gather>.icon_sell>a {
+    /* position: relative; */
+    border-radius: 70px;
+    padding: 9px 0;
+}
+
+.gather>a>.icon_img {
+    padding: 0;
+}
+.icon_sell img{
+    border-radius: 40%;
+}
+.gather>.icon_sell img:hover {
+    background-color: #ccc;
+}
