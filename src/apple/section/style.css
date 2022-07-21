@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body img{
+    width: 100vw;
+    height: 80vh;
+}
+.buy{
+    position: relative;
+    bottom: 360px;
+    left: 570px;
+    margin: 0 10px 0 0;
+    font-size: 20px;
+    color: rgb(36, 126, 216);
+    font-weight: 600;
+}
+.buy:hover{
+    text-decoration: underline;
+}
