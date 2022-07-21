@@ -1,27 +1,33 @@
 import styled from '@emotion/styled'
 
-export const GogleHeader = styled.header`
+export const GoogleHeader = styled.header`
     width: 100vw;
-    height: 10vh;
+    height: 8vh;
     background: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 `;
-export const Goglenav1 = styled.div`
+export const Googlenav1 = styled.div`
   padding:0 10px;
 &>a{
     padding-left:20px;
 }
+& a:hover{
+    text-decoration: underline;
+}
 `;
-export const Goglenav2 = styled.div`
-    width:200px;
+export const Googlenav2 = styled.div`
+    width:220px;
     display:flex;
     justify-content:space-around;
     align-items:center;
     & a{
         font-size:15px;
+    }
+    & a:hover{
+        text-decoration: underline;
     }
     &>img{
         width:32px;
