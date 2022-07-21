@@ -1,0 +1,125 @@
+footer {
+    background: #474b50;
+    z-index: 100;
+}
+footer .footer_inner {
+    position: relative;
+    width: 1140px;
+    height: 10vh;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+footer .footer_top {
+    overflow: hidden;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #6c6f73;
+}
+footer .menu_area {
+    float: left;
+}
+footer .link_area {
+    float: right;
+}
+footer .menu_list1 {
+    padding-top: 10px;
+}
+footer .menu_list1 li {
+    position: relative;
+    float: left;
+}
+footer .menu_list1 li a {
+    display: block;
+    margin-right: 40px;
+    font-size: 14px;
+    color: #fff;
+}
+footer .menu_list1 li::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50%;
+    width: 1px;
+    height: 10px;
+    background-color: #8c8e90;
+    margin-top: -4px;
+    margin-left: -20px;
+}
+footer .sns_list {
+    overflow: hidden;
+    float: left;
+    padding-top: 8px;
+}
+footer .mark {
+    float: right;
+}
+footer .sns_list li {
+    float: left;
+    margin-right: 20px;
+}
+footer .sns_list li a {
+    display: block;
+    width: 12px;
+    height: 24px;
+    background-image: url(/public/samsung_img/sns_link_ico.png);
+    text-indent: -99999px;
+}
+footer .sns_list li.youtube a {
+    width: 21px;
+    background-position: -30px 0;
+}
+footer .sns_list li.facebook a {
+    width: 9px;
+    background-position: -60px 0;
+}
+footer .sns_list li.linkedin a {
+    width: 17px;
+    background-position: -90px 0;
+}
+
+footer .menu_area {
+    float: left;
+}
+footer .menu_list1,
+footer .menu_list2 {
+    overflow: hidden;
+}
+footer .menu_list2 li {
+    float: left;
+    margin-right: 30px;
+}
+footer .menu_list2 li a {
+    display: block;
+    font-size: 14px;
+    color: #ccc;
+}
+footer .menu_list2 .point a {
+    color: #00ccff;
+}
+footer .copyright {
+    float: right;
+}
+footer .copyright small {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ccc;
+}
+
+.top a {
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 60px;
+    background-color: #fff;
+    display: none;
+}
+.top a.on {
+    display: block;
+}
+.animate {
+    transition: 5s ease-in-out;
+}
